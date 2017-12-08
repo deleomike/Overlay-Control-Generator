@@ -1,0 +1,8 @@
+Made by Mike DeLeo
+
+The main_Overlay is used to generate a 1280 pixel x 1024 pixel overlay for vhdl. 
+The file path in the design for the output file needs to changed to what you are using.
+The format of the file is "0", "1", ... where 0 is transparent and 1 is black
+
+The main_inner_overlay is used to generate a 1230 pixel x 437 pixel inner box for the overlay.
+Same format, except with 01 being white.
